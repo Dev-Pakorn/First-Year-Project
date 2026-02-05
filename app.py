@@ -25,9 +25,9 @@ def about():
 
 
 request = [
-    {"ids": 1, "case_name": "แจ้งซ่อมพัดลม"},
-    {"ids": 2, "case_name": "แจ้งซ่อมแอร์"},
-    {"ids": 3, "case_name": "แจ้งซ่อมประตู"}
+    {"ids": 1, "case_name": "แจ้งซ่อมพัดลม", "location": "ห้อง 101"},
+    {"ids": 2, "case_name": "แจ้งซ่อมแอร์", "location": "ห้อง 202"},
+    {"ids": 3, "case_name": "แจ้งซ่อมประตู", "location": "ห้อง 303"}
     ]
 
 @app.route("/listRequest")
